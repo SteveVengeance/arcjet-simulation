@@ -1,0 +1,63 @@
+{
+  "simulation_mode": 2,
+  "timestamp": "20260524_142118",
+  "gas": {
+    "name": "Argon (Ar)",
+    "gamma": 1.6670,
+    "R_J_per_kgK": 208.10,
+    "Cp_J_per_kgK": 520.09
+  },
+  "nozzle_geometry": {
+    "design_mach": 1.3451,
+    "throat_diameter_mm": 1.2500,
+    "exit_diameter_mm": 1.2961,
+    "length_mm": 2.5404,
+    "area_ratio": 1.0751
+  },
+  "stagnation_conditions": {
+    "T0_supply_degC": 20.00,
+    "T0_after_arc_degC": 806.18,
+    "P0_kPa": 329.7353
+  },
+  "back_pressure": {
+    "P_back_kPa": 101.3250,
+    "operating_regime": "Normal Shock Inside Nozzle"
+  },
+  "mass_flow_kg_per_s": 0.001190,
+  "arc_heating": {
+    "voltage_V": 200.00,
+    "current_A": 2.43,
+    "power_W": 486.49,
+    "power_kW": 0.4865,
+    "delta_T0_degC": 786.18,
+    "cathode_center_mm": 0.30,
+    "cathode_width_mm": 0.25,
+    "anode_center_mm": 2.56,
+    "anode_width_mm": 0.25
+  },
+  "exit_conditions": {
+    "temperature_degC": -60.82,
+    "velocity_m_per_s": 949.65,
+    "density_kg_per_m3": 0.1282,
+    "pressure_kPa": 5.6666
+  },
+  "inverse_design": {
+    "inputs": {
+      "target_velocity_m_per_s": 650.00,
+      "target_temperature_degC": 400.00,
+      "arc_power_budget_W": 400.00,
+      "min_throat_diameter_mm": 1.25,
+      "manufacturing_constraint_active": true
+    },
+    "computed_outputs": {
+      "throat_diameter_mm": 1.2500,
+      "exit_diameter_mm": 1.2961,
+      "nozzle_length_mm": 2.5404,
+      "mass_flow_kg_per_s": 0.001190,
+      "achieved_velocity_m_per_s": 949.65,
+      "achieved_temperature_degC": -60.82,
+      "thrust_momentum_N": 1.1299,
+      "thrust_total_N": 0.7734
+    }
+  }
+}

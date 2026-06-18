@@ -1,0 +1,68 @@
+{
+  "simulation_mode": 2,
+  "timestamp": "20260524_143629",
+  "gas": {
+    "name": "Argon (Ar)",
+    "gamma": 1.6670,
+    "R_J_per_kgK": 208.10,
+    "Cp_J_per_kgK": 520.09
+  },
+  "nozzle_geometry": {
+    "design_mach": 2.0694,
+    "throat_diameter_mm": 1.2500,
+    "exit_diameter_mm": 7.1182,
+    "length_mm": 10.9502,
+    "area_ratio": 32.4278,
+    "diverging_shape": "Conical (15.0 deg half-angle)",
+    "cone_half_angle_deg": 15.00,
+    "convergence_section": true,
+    "convergence_length_mm": 30.0000,
+    "convergence_inlet_diameter_mm": 20.0000
+  },
+  "stagnation_conditions": {
+    "T0_supply_degC": 20.00,
+    "T0_after_arc_degC": 1361.36,
+    "P0_kPa": 930.2940
+  },
+  "back_pressure": {
+    "P_back_kPa": 101.3250,
+    "operating_regime": "Overexpanded"
+  },
+  "mass_flow_kg_per_s": 0.003357,
+  "arc_heating": {
+    "voltage_V": 200.00,
+    "current_A": 11.71,
+    "power_W": 2341.82,
+    "power_kW": 2.3418,
+    "delta_T0_degC": 1341.36,
+    "cathode_center_mm": 1.31,
+    "cathode_width_mm": 1.10,
+    "anode_center_mm": 4.41,
+    "anode_width_mm": 1.10
+  },
+  "exit_conditions": {
+    "temperature_degC": -73.47,
+    "velocity_m_per_s": 1221.68,
+    "density_kg_per_m3": 0.1170,
+    "pressure_kPa": 4.8601
+  },
+  "inverse_design": {
+    "inputs": {
+      "target_velocity_m_per_s": 1000.00,
+      "target_temperature_degC": 400.00,
+      "arc_power_budget_W": 400.00,
+      "min_throat_diameter_mm": 1.25,
+      "manufacturing_constraint_active": true
+    },
+    "computed_outputs": {
+      "throat_diameter_mm": 1.2500,
+      "exit_diameter_mm": 7.1182,
+      "nozzle_length_mm": 10.9502,
+      "mass_flow_kg_per_s": 0.003357,
+      "achieved_velocity_m_per_s": 1221.68,
+      "achieved_temperature_degC": -73.47,
+      "thrust_momentum_N": 4.1009,
+      "thrust_total_N": 3.3568
+    }
+  }
+}
